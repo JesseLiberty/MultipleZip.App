@@ -8,6 +8,6 @@ namespace ZipCode.Model
 {
     public class Root
     {
-        public Results results { get; set; }
+        public List<Result> results { get; set; }
     }
 }

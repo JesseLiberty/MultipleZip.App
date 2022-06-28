@@ -6,9 +6,13 @@ using System.Threading.Tasks;
 
 namespace ZipCode.Model
 {
-    public class City
+    public class Result
     {
+        public string zip { get; set; }
         public string city { get; set; }
-        public string preferred { get; set; }
+        public string state { get; set; }
+        public string image { get; set; }
+
     }
+
 }
